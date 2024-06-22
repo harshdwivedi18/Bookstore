@@ -1,0 +1,98 @@
+[
+    {
+        "id":1,
+        "name":"Fictional Novel",
+        "title":"The Kite runner",
+        "price":0,
+        "category":"free",
+        "image":"/images/Slider-1.jpg"
+    },
+    {
+        "id":2,
+        "name":"Fictional Novel",
+        "title":"Thousand Splendid suns",
+        "price":0,
+        "category":"free",
+        "image":"/images/slider-2.jpg"
+    },
+    {
+        "id":3,
+        "name":"Drama Novel",
+        "title":"Forrest Gump",
+        "price":0,
+        "category":"free",
+        "image":"/images/Slider-3.jpg"
+    },
+    {
+        "id":4,
+        "name":"Self learning",
+        "title":"Living Dangerously",
+        "price":0,
+        "category":"free",
+        "image":"/images/slider-4.jpg"
+    },
+    {
+        "id":5,
+        "name":"Drama Novel",
+        "title":"A Little life",
+        "price":0,
+        "category":"free",
+        "image":"/images/slider-5.jpg"
+    },
+    {
+        "id":6,
+        "name":"Finance",
+        "title":"The intelligent investor",
+        "price":0,
+        "category":"free",
+        "image":"/images/slider-6.jpeg"
+    },
+    {
+        "id":7,
+        "name":"Timeless lessons on wealth, greed, and happiness",
+        "title":"The Psychology of Money",
+        "price":10,
+        "category":"Paid",
+        "image":"/images/book-7.jpg"
+    },
+    {
+        "id":8,
+        "name":"Biography",
+        "title":"Elon Musk",
+        "price":15,
+        "category":"Paid",
+        "image":"/images/book-8.jpg"
+    },
+    {
+        "id":9,
+        "name":"Biography",
+        "title":"Can't hurt me",
+        "price":8,
+        "category":"Paid",
+        "image":"/images/book-9.jpg"
+    },
+    {
+        "id":10,
+        "name":"Drama Novel",
+        "title":"It ends with us",
+        "price":20,
+        "category":"Paid",
+        "image":"/images/book-10.jpg"
+    },
+    {
+        "id":11,
+        "name":"Biography",
+        "title":"Kalam",
+        "price":15,
+        "category":"Paid",
+        "image":"/images/book-11.webp"
+    },
+    {
+        "id":12,
+        "name":"Historic war",
+        "title":"ALexander the great",
+        "price":25,
+        "category":"Paid",
+        "image":"/images/book-12.jpg"
+    }
+]
