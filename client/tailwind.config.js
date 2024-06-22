@@ -6,7 +6,12 @@ export default {
   ],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        mmd: "870px",
+        xxl: "1415px",
+      },
+    },
   },
   plugins: [require('daisyui'),],
 }

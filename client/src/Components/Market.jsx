@@ -11,21 +11,22 @@ function Market() {
               Our Exclusive Book Store
             </h2>
             <p className="mt-4 text-base font-normal leading-7 text-black dark:text-white">
-              Welcome to ReadersZone, your haven for literary
-              treasures! Whether you're searching for the latest bestsellers,
-              timeless classics, or hidden gems, we are here to cater to your
-              every reading desire. Explore our diverse collection, enjoy
-              personalized recommendations, and immerse yourself in a world of
-              words. Happy reading!
+              Welcome to ReadersZone, your haven for literary treasures! Whether
+              you're searching for the latest bestsellers, timeless classics, or
+              hidden gems, we are here to cater to your every reading desire.
+              Explore our diverse collection, enjoy personalized
+              recommendations, and immerse yourself in a world of words. Happy
+              reading!
             </p>
           </div>
+ 
+          <div className="mt-12 grid mmd:grid-cols-2 grid-cols-1 gap-6 xl:grid-cols-3 ">
+            {list.map((item) => (
+              <div className="flex justify-center items-center">
 
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-3">
-            
-           {list.map((item)=>(
-            <Card key={item.id} item={item} />
-           ))}
-            
+                <Card key={item.id} item={item} />
+              </div>
+            ))}
           </div>
         </div>
       </section>

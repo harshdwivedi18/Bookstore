@@ -35,8 +35,8 @@ function Navbar() {
     </>
   );
   return (
-    <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 dark:bg-slate-900">
-      <div className="navbar bg-base-100 fixed top-0 left-0 right-0 z-50 bg-opacity-70">
+    <div className=" container  max-w-[1550px]  z-50  flex fixed top-0 left-0 right-0  items-center justify-center mx-auto  dark:bg-slate-900">
+      <div className="navbar  bg-base-100   z-50 bg-opacity-70">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -126,7 +126,7 @@ function Navbar() {
             </label>
           </div>
           <div>
-            <a className="btn hover:text-red-500" onClick={()=>document.getElementById("my_modal_3").showModal()}>Login</a>
+            <a className="btn hover:text-red-500"  onClick={()=>document.getElementById("my_modal_3").showModal() }>Login</a>
             <Login/>
           </div>
         </div>
